@@ -4,18 +4,23 @@
   "description": "A vue coverflow component",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/OrangeXC/vue-coverflow.git"
   },
   "keywords": [
-    "npm",
     "vue",
-    "coverflow"
+    "coverflow",
+    "vue-coverflow",
+    "vue coverflow"
   ],
-  "author": "orange",
+  "author": {
+    "name": "orangexc",
+    "email": "842012622@qq.com",
+    "url": "orangexc.xyz"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/OrangeXC/vue-coverflow/issues"
