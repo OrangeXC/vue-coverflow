@@ -1,6 +1,7 @@
 # vue-coverflow
 
 > vue-coverflow is a vue2 component to simulate the Apple Cover Flow UI effect, without jQuery.
+
 > **Chrome & Safari are only supported now.**
 
 [![NPM](https://nodei.co/npm/vue-coverflow.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vue-coverflow/)
@@ -48,9 +49,10 @@ You can set them to your data()->coverflowOption
 | coverFalt      | Boolean      |  disable 3D rotation(default: false)      |       |
 | bgColor        | String       |  background color(default: 'transparent')                    |       |
 | width          | Number       |  width of coverflow |  |
-| index          | Number       |  which cover checked(default:　0) |  |
+| index          | Number       |  which cover checked(default: 0) |  |
 
 > you must set coverList in your data, otherwise you can't watch the effect!
+
 > If you change the options you should refresh page, because reload can trigger window.onload
 
 ### License
