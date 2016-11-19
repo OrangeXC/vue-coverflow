@@ -3,7 +3,7 @@
     :data-size="options.coverWidth"
     :data-spacing="options.coverSpace"
     :data-shadow="options.coverShadow"
-    :data-flat="options.coverFalt"
+    :data-flat="options.coverFlat"
     :data-bgcolor="options.bgColor"
     :data-width="options.width"
     :data-index="options.index">
