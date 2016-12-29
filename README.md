@@ -1,6 +1,6 @@
 # vue-coverflow
 
-![](http://ogu51f989.bkt.clouddn.com/vue-coverflow.png)
+![](http://ogu51f989.bkt.clouddn.com/vue-coverflow.jpeg)
 
 > vue-coverflow is a vue2 component to simulate the Apple Cover Flow UI effect, without jQuery.
 
