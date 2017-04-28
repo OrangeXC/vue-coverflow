@@ -11,7 +11,7 @@
 ### Install
 
 ```
-npm install vue-coverflow --save-dev
+npm install vue-coverflow --save
 ```
 
 ### Use
