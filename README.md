@@ -53,9 +53,17 @@ You can set them to your data()->coverflowOption
 | width          | Number       |  width of coverflow |  |
 | index          | Number       |  which cover checked(default: 0) |  |
 
-> you must set coverList in your data, otherwise you can't watch the effect!
-
 > If you change the options you should refresh page, because reload can trigger window.onload
+
+### Develop and Demo
+
+```
+yarn add
+or
+npm install
+
+npm run dev
+```
 
 ### License
 
