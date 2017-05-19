@@ -2,6 +2,8 @@
 
 ![](http://ogu51f989.bkt.clouddn.com/vue-coverflow.jpeg)
 
+## [Live Demo](ogu51f989.bkt.clouddn.com)
+
 > vue-coverflow is a vue2 component to simulate the Apple Cover Flow UI effect, without jQuery.
 
 > **Chrome & Safari are only supported now.**
@@ -58,6 +60,8 @@ You can set them to your data()->coverflowOption
 ### Develop and Demo
 
 ```
+git clone
+
 yarn add
 or
 npm install
