@@ -7,7 +7,7 @@
     "email": "842012622@qq.com",
     "url": "http://orangexc.xyz"
   },
-  "main": "dist/coverflow.js",
+  "main": "src/index.js",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
