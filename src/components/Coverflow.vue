@@ -1,15 +1,15 @@
 <template>
   <div class="coverflow"
-    :data-size="options.coverWidth"
-    :data-spacing="options.coverSpace"
-    :data-shadow="options.coverShadow"
-    :data-flat="options.coverFlat"
-    :data-bgcolor="options.bgColor"
-    :data-width="options.width"
-    :data-index="options.index">
+    :data-size="coverWidth"
+    :data-spacing="coverSpace"
+    :data-shadow="coverShadow"
+    :data-flat="coverFlat"
+    :data-bgcolor="bgColor"
+    :data-width="width"
+    :data-index="index">
     <img :src="coverItem.cover"
       :data-info="coverItem.title"
-      v-for="(coverItem, index) of options.coverList">
+      v-for="(coverItem, index) of coverList">
   </div>
 </template>
 
@@ -21,9 +21,37 @@ export default {
     }
   },
   props: {
-    options: {
-      type: Object,
+    coverList: {
+      type: Array,
       required: true
+    },
+    width: {
+      type: Number,
+      default: 1000
+    },
+    bgColor: {
+      type: String,
+      default: '#fff'
+    },
+    index: {
+      type: Number,
+      default: 0
+    },
+    coverWidth: {
+      type: Number,
+      default: 100
+    },
+    coverSpace: {
+      type: Number,
+      default: 50
+    },
+    coverShadow: {
+      type: Boolean,
+      default: false
+    },
+    coverFlat: {
+      type: Boolean,
+      default: false
     }
   }
 }
@@ -201,5 +229,6 @@ export default {
 <style>
   .coverflow {
     margin: 0 auto;
+    cursor: pointer;
   }
 </style>

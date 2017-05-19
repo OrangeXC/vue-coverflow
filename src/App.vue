@@ -1,7 +1,66 @@
 <template>
   <div id="app">
-    <img class="logo" src="./assets/logo.png">
-    <coverflow :options="coverflowOption"></coverflow>
+    <header class="head">vue-coverflow</header>
+    <h2>Demo 1</h2>
+    <coverflow :coverList="coverList" :coverWidth="260" :index="2"></coverflow>
+    <pre v-highlightjs>
+      <code class="javascript">
+        // all example uses the same js
+        import Coverflow from './components/Coverflow'
+
+        export default {
+          name: 'app',
+          data () {
+            return {
+              coverList: [
+                {
+                  cover: 'http://ogu51f989.bkt.clouddn.com/react.png',
+                  title: 'React'
+                }, {
+                  cover: 'http://ogu51f989.bkt.clouddn.com/angular.png',
+                  title: 'Angular'
+                }, {
+                  cover: 'http://ogu51f989.bkt.clouddn.com/vue.png',
+                  title: 'Vue'
+                }, {
+                  cover: 'http://ogu51f989.bkt.clouddn.com/webpack.png',
+                  title: 'Webpack'
+                }, {
+                  cover: 'http://ogu51f989.bkt.clouddn.com/yarn.png',
+                  title: 'Yarn'
+                }, {
+                  cover: 'http://ogu51f989.bkt.clouddn.com/node.png',
+                  title: 'Node'
+                }
+              ]
+            }
+          },
+          components: {
+            Coverflow
+          }
+        }
+      </code>
+      <code class="html">{{ codeOne }}</code>
+    </pre>
+    <h2>Demo 2</h2>
+    <coverflow :coverList="coverList" :coverWidth="260" :index="2" bgColor="#333"></coverflow>
+    <pre v-highlightjs>
+      <code class="html">{{ codeTwo }}</code>
+    </pre>
+    <h2>Demo 3</h2>
+    <coverflow :coverList="coverList" :coverWidth="260" :index="2" :coverShadow="true"></coverflow>
+    <pre v-highlightjs>
+      <code class="html">{{ codeThree }}</code>
+    </pre>
+    <h2>Demo 4</h2>
+    <coverflow :coverList="coverList" :coverWidth="260" :coverSpace="100" :index="0" :coverFlat="true"></coverflow>
+    <pre v-highlightjs>
+      <code class="html">{{ codeFour }}</code>
+    </pre>
+    <footer class="foot">
+      <a href="https://github.com/OrangeXC/vue-coverflow">Github</a> |
+      <a href="http://orangexc.xyz/">Blog</a>
+    </footer>
   </div>
 </template>
 
@@ -12,25 +71,39 @@ export default {
   name: 'app',
   data () {
     return {
-      coverflowOption: {
-        coverList: [
-          {
-            cover: 'https://o2mb72adu.qnssl.com/FmRIyHQzKQcik9GRKA3xh6R7wpks?imageMogr2/crop/!520x694a0a0',
-            title: '敢玩顽童'
-          }, {
-            cover: 'https://o2mb72adu.qnssl.com/FozwPyVUNFmzd8IwA8_I3Sd6IGzr?imageMogr2/crop/!520x694a0a0',
-            title: '别闹了，小瓜小野'
-          }, {
-            cover: 'https://o2mb72adu.qnssl.com/Fj44oaZzEadifcrMmP7vSXi96hs4?imageMogr2/crop/!520x694a0a0',
-            title: '我们怂着呢'
-          }, {
-            cover: 'https://o2mb72adu.qnssl.com/FhEVNj696z2UoCUd6LokXPoi4qsd?imageMogr2/crop/!520x694a0a0',
-            title: '野生兄弟'
-          }
-        ],
-        coverWidth: 260,
-        width: 1000
-      }
+      coverList: [
+        {
+          cover: 'http://ogu51f989.bkt.clouddn.com/react.png',
+          title: 'React'
+        }, {
+          cover: 'http://ogu51f989.bkt.clouddn.com/angular.png',
+          title: 'Angular'
+        }, {
+          cover: 'http://ogu51f989.bkt.clouddn.com/vue.png',
+          title: 'Vue'
+        }, {
+          cover: 'http://ogu51f989.bkt.clouddn.com/webpack.png',
+          title: 'Webpack'
+        }, {
+          cover: 'http://ogu51f989.bkt.clouddn.com/yarn.png',
+          title: 'Yarn'
+        }, {
+          cover: 'http://ogu51f989.bkt.clouddn.com/node.png',
+          title: 'Node'
+        }
+      ],
+      codeOne: `
+      <coverflow :coverList="coverList" :coverWidth="260" :index="2"></coverflow>
+      `,
+      codeTwo: `
+      <coverflow :coverList="coverList" :coverWidth="260" :index="2" bgColor="#ddd"></coverflow>
+      `,
+      codeThree: `
+      <coverflow :coverList="coverList" :coverWidth="260" :index="2" :coverShadow="true"></coverflow>
+      `,
+      codeFour: `
+      <coverflow :coverList="coverList" :coverWidth="260" :coverSpace="100" :index="0" :coverFlat="true"></coverflow>
+      `
     }
   },
   components: {
@@ -40,7 +113,40 @@ export default {
 </script>
 
 <style>
-#app {
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.head, .foot {
+  height: 64px;
+  margin-bottom: 20px;
+
+  background-color: #474a4f;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .10), 0 1px 4px rgba(0, 0, 0, .10);
+
   text-align: center;
+  line-height: 64px;
+
+  font-size: 24px;
+  color: #fff;
+}
+
+.foot {
+  margin-bottom: 0;
+}
+
+h2 {
+  text-align: center;
+
+  color: #808080;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #ddd;
 }
 </style>

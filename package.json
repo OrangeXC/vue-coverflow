@@ -7,7 +7,7 @@
     "email": "842012622@qq.com",
     "url": "http://orangexc.xyz"
   },
-  "main": "dist/coverflow.js",
+  "main": "src/index.js",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
@@ -54,6 +54,7 @@
     "shelljs": "^0.7.6",
     "url-loader": "^0.5.8",
     "vue": "^2.2.6",
+    "vue-highlightjs": "^1.3.1",
     "vue-loader": "^11.3.4",
     "vue-style-loader": "^2.0.5",
     "vue-template-compiler": "^2.2.6",
