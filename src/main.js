@@ -2,6 +2,9 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import VueHighlightJS from 'vue-highlightjs'
+
+Vue.use(VueHighlightJS)
 
 Vue.config.productionTip = false
 

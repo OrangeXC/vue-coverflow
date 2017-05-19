@@ -229,5 +229,6 @@ export default {
 <style>
   .coverflow {
     margin: 0 auto;
+    cursor: pointer;
   }
 </style>
