@@ -2,7 +2,7 @@
 
 ![](http://ogu51f989.bkt.clouddn.com/vue-coverflow.jpeg)
 
-## [Live Demo](ogu51f989.bkt.clouddn.com)
+## [Live Demo](http://ogu51f989.bkt.clouddn.com)
 
 > vue-coverflow is a vue2 component to simulate the Apple Cover Flow UI effect, without jQuery.
 
@@ -57,10 +57,12 @@ You can set them to your data()->coverflowOption
 
 > If you change the options you should refresh page, because reload can trigger window.onload
 
-### Develop and Demo
+### Develop
 
 ```
-git clone
+git clone https://github.com/OrangeXC/vue-coverflow.git
+
+cd vue-coverflow
 
 yarn add
 or
