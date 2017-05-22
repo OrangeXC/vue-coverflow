@@ -153,11 +153,14 @@ section {
   padding: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
-ins, a {
+ins,
+a {
   text-decoration: none;
 }
 
@@ -171,7 +174,8 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
 }
 
-.head, .foot {
+.head,
+.foot {
   height: 64px;
   margin-bottom: 20px;
 
