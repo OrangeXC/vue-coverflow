@@ -1,13 +1,13 @@
 {
   "name": "vue-coverflow",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "vue2.x coverflow component",
   "author": {
     "name": "orangexc",
     "email": "842012622@qq.com",
     "url": "http://orangexc.xyz"
   },
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
