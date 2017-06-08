@@ -23,9 +23,7 @@ import { coverflow } from 'vue-coverflow'
 export default {
   data () {
     return {
-      coverflowOption: {
-        // ...
-      }
+      // options
     }
   },
   components: {
@@ -35,8 +33,10 @@ export default {
 ```
 
 ```html
-<coverflow :options="coverflowOption"></coverflow>
+<coverflow options></coverflow>
 ```
+
+> Detail please to Live Demo
 
 ### Options
 
