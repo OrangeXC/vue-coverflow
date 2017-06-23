@@ -53,30 +53,15 @@ export default {
       type: Boolean,
       default: false
     }
-  }
-}
-
-// DOM render when window onload
-!(function () {
-  window.onload = function () {
-    var browserPrefix = ''
-
-    if (navigator.userAgent.indexOf('Firefox') !== -1) {
-      browserPrefix = '-moz-'
-    } else if (navigator.userAgent.indexOf('Chrome') !== -1) {
-      browserPrefix = '-webkit-'
-    } else if (navigator.userAgent.indexOf('Safari') !== -1) {
-      browserPrefix = '-webkit-'
-    }
-
-    var setTransform3D = function (el, degree, perspective, z) {
+  },
+  methods: {
+    setTransform3D(el, degree, perspective, z) {
       degree = Math.max(Math.min(degree, 90), -90)
       z -= 5
       el.style['-webkit-perspective'] = el.style['perspective'] = el.style['-moz-perspective'] = perspective + 'px'
       el.style['-webkit-transform'] = el.style['transform'] = 'rotateY(' + degree + 'deg) translateZ(' + z + 'px)'
-    }
-
-    var displayIndex = function (imgSize, spacing, left, imgs, index, flat, width, titleBox) {
+    },
+    displayIndex(imgSize, spacing, left, imgs, index, flat, width, titleBox) {
       var mLeft = (width - imgSize) * 0.5 - spacing * (index + 1) - imgSize * 0.5
 
       for (var i = 0; i <= index; ++i) {
@@ -84,7 +69,7 @@ export default {
         imgs[i].style.marginLeft = mLeft + 'px'
         imgs[i].style['-webkit-filter'] = 'brightness(0.65)'
         imgs[i].style.zIndex = i + 1
-        setTransform3D(imgs[i], flat ? 0 : ((index - i) * 10 + 45), 300, flat ? -(index - i) * 10 : (-(index - i) * 30 - 20))
+        this.setTransform3D(imgs[i], flat ? 0 : ((index - i) * 10 + 45), 300, flat ? -(index - i) * 10 : (-(index - i) * 30 - 20))
       }
 
       imgs[index].style['-webkit-filter'] = 'none'
@@ -100,27 +85,25 @@ export default {
         titleBox.style.marginLeft = (mLeft + imgSize * 0.5) + 'px'
       }
 
-      setTransform3D(imgs[index], 0, 0, 5)
+      this.setTransform3D(imgs[index], 0, 0, 5)
 
       for (var j = index + 1; j < imgs.length; ++j) {
         imgs[j].style.left = (left + j * spacing + spacing) + 'px'
         imgs[j].style.marginLeft = (mLeft + imgSize) + 'px'
         imgs[j].style['-webkit-filter'] = 'brightness(0.7)'
         imgs[j].style.zIndex = imgs.length - j
-        setTransform3D(imgs[j], flat ? 0 : ((index - j) * 10 - 45), 300, flat ? (index - j) * 10 : ((index - j) * 30 - 20))
+        this.setTransform3D(imgs[j], flat ? 0 : ((index - j) * 10 - 45), 300, flat ? (index - j) * 10 : ((index - j) * 30 - 20))
       }
-    }
-
-    var coverflowScroll = function (imgSize, spacing, c, imgs, flat, titleBox) {
+    },
+    coverflowScroll(imgSize, spacing, c, imgs, flat, titleBox) {
       var width = parseInt(c.style.width)
       var p = 1.0 * c.scrollLeft / width
       var index = Math.min(Math.floor(p * imgs.length), imgs.length - 1)
       var left = c.scrollLeft
       c.dataset.index = index
-      displayIndex(imgSize, spacing, left, imgs, index, flat, width, titleBox)
-    }
-
-    var initCoverFlow = function (c) {
+      this.displayIndex(imgSize, spacing, left, imgs, index, flat, width, titleBox)
+    },
+    initCoverFlow(c) {
       var imgSize = parseInt(c.dataset.size) || 64
       var spacing = parseInt(c.dataset.spacing) || 10
       var shadow = (c.dataset.shadow === 'true') || false
@@ -132,6 +115,16 @@ export default {
       var imgHeight = 0
       var imgs = []
       var placeholding
+
+      var browserPrefix = ''
+
+      if (navigator.userAgent.indexOf('Firefox') !== -1) {
+        browserPrefix = '-moz-'
+      } else if (navigator.userAgent.indexOf('Chrome') !== -1) {
+        browserPrefix = '-webkit-'
+      } else if (navigator.userAgent.indexOf('Safari') !== -1) {
+        browserPrefix = '-webkit-'
+      }
 
       for (var i = 0; i < c.childNodes.length; ++i) {
         if (c.childNodes[i].tagName) {
@@ -177,7 +170,7 @@ export default {
         c.appendChild(titleBox)
       }
 
-      setTransform3D(c, 0, 600, 0)
+      this.setTransform3D(c, 0, 600, 0)
       placeholding = document.createElement('DIV')
       placeholding.style.width = (width ? width * 2 : (imgSize + (imgs.length + 1) * spacing) * 2) + 'px'
       placeholding.style.height = '1px'
@@ -205,25 +198,23 @@ export default {
       c.dataset.index = index ? parseInt(index) : 0
 
       c.onscroll = function () {
-        coverflowScroll(imgSize, spacing, c, imgs, flat, titleBox)
+        this.coverflowScroll(imgSize, spacing, c, imgs, flat, titleBox)
       }
 
+      var that = this;
       for (var l = 0; l < imgs.length; ++l) {
         imgs[l].onclick = function () {
-          displayIndex(imgSize, spacing, c.scrollLeft, imgs, imgs.indexOf(this), flat, parseInt(c.style.width), titleBox)
+          that.displayIndex(imgSize, spacing, c.scrollLeft, imgs, imgs.indexOf(this), flat, parseInt(c.style.width), titleBox)
         }
       }
 
-      displayIndex(imgSize, spacing, c.scrollLeft, imgs, +c.dataset.index, flat, parseInt(c.style.width), titleBox)
+      this.displayIndex(imgSize, spacing, c.scrollLeft, imgs, +c.dataset.index, flat, parseInt(c.style.width), titleBox)
     }
-
-    var coverflows = document.getElementsByClassName('coverflow')
-
-    for (var i = 0; i < coverflows.length; ++i) {
-      initCoverFlow(coverflows[i])
-    }
+  },
+  mounted() {
+    this.initCoverFlow(this.$el);
   }
-})()
+}
 </script>
 
 <style>
