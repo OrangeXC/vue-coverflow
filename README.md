@@ -38,9 +38,10 @@ Vue.component('coverflow', coverflow)
 
 ### Options
 
+#### Attributes
 You can set them to your data function
 
-| protype        | type         | description    | example |
+| Attribute      | Type         | Description    | Example |
 | :------------- |:-------------|:---------------| :------ |
 | coverList      | Array        |  Each object contains two elements, cover is image's url, title will be showed on the bottom of cover(required: true) |  [{ cover: '', title: ''}] |
 | width          | Number       |  width of coverflow(default: 980) |  |
@@ -51,6 +52,12 @@ You can set them to your data function
 | coverSpace     | Number       |  spaceing between two cover(default: 50)                     |       |
 | coverShadow    | Boolean      |  reflection effect, total height will be changed to two times (default: false)                      |       |
 | coverFalt      | Boolean      |  disable 3D rotation(default: false)      |       |
+
+#### Events
+
+| Event Name     | description    | Parameters |
+| :------------- |:---------------| :--------- |
+| change         | triggers when the selected cover changes |  the index of the curent cover |
 
 ### Develop
 
