@@ -2,6 +2,7 @@
   "name": "vue-coverflow",
   "version": "2.1.0",
   "private": false,
+  "main": "lib/index.js",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
