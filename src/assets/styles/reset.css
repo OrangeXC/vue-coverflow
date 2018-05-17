@@ -1,0 +1,94 @@
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+ins,
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  font-size: 12px;
+  line-height: 1.4em;
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+}
+
+.head,
+.foot {
+  height: 64px;
+  margin-bottom: 20px;
+
+  background-color: #474a4f;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .10), 0 1px 4px rgba(0, 0, 0, .10);
+
+  text-align: center;
+  line-height: 64px;
+
+  font-size: 24px;
+  color: #fff;
+}
+
+.foot {
+  margin-bottom: 0;
+}
+
+h2 {
+  text-align: center;
+  line-height: 5;
+
+  color: #808080;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #ddd;
+}
