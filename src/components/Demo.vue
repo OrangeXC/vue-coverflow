@@ -66,22 +66,22 @@ export default {
     return {
       coverList: [
         {
-          cover: 'http://ogu51f989.bkt.clouddn.com/react.png',
+          cover: 'https://i.loli.net/2018/05/17/5afd1b86b16cf.png',
           title: 'React'
         }, {
-          cover: 'http://ogu51f989.bkt.clouddn.com/angular.png',
+          cover: 'https://i.loli.net/2018/05/17/5afd1b85854af.png',
           title: 'Angular'
         }, {
-          cover: 'http://ogu51f989.bkt.clouddn.com/vue.png',
+          cover: 'https://i.loli.net/2018/05/17/5afd1b86b3f5d.png',
           title: 'Vue'
         }, {
-          cover: 'http://ogu51f989.bkt.clouddn.com/webpack.png',
+          cover: 'https://i.loli.net/2018/05/17/5afd1b86bc332.png',
           title: 'Webpack'
         }, {
-          cover: 'http://ogu51f989.bkt.clouddn.com/yarn.png',
+          cover: 'https://i.loli.net/2018/05/17/5afd1b86c9a2b.png',
           title: 'Yarn'
         }, {
-          cover: 'http://ogu51f989.bkt.clouddn.com/node.png',
+          cover: 'https://i.loli.net/2018/05/17/5afd1b8585556.png',
           title: 'Node'
         }
       ],
@@ -101,12 +101,10 @@ export default {
   },
   methods: {
     handleChange (index) {
+      // eslint-disable-next-line
       console.log(`[Demo 1] You have click cover ${index}`)
     }
-  },
-  // components: {
-  //   coverflow
-  // }
+  }
 }
 </script>
 
