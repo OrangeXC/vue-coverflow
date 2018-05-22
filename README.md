@@ -4,7 +4,7 @@
 
 [![NPM](https://nodei.co/npm/vue-coverflow.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vue-coverflow/)
 
-## [Demo](http://orangex_c.coding.me/vue-coverflow-website/) | [案例](http://orangex_c.coding.me/vue-coverflow-website/)
+## [Demo](http://orangex_c.coding.me/vue-coverflow/) | [案例](http://orangex_c.coding.me/vue-coverflow/)
 
 ### Install
 
