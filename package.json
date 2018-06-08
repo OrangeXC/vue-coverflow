@@ -10,13 +10,13 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
-    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
-    "@vue/cli-service": "^3.0.0-beta.15",
+    "@vue/cli-plugin-babel": "^3.0.0-beta.16",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.16",
+    "@vue/cli-service": "^3.0.0-beta.16",
     "vue": "^2.5.16",
     "vue-highlightjs": "^1.3.3",
     "vue-template-compiler": "^2.5.16",
-    "webpack": "^4.11.1"
+    "webpack": "^4.12.0"
   },
   "babel": {
     "presets": [
