@@ -4,7 +4,7 @@ import VueHighlightJS from 'vue-highlightjs'
 import coverflow from '../lib'
 
 Vue.use(VueHighlightJS)
-Vue.component('coverflow', coverflow)
+Vue.use(coverflow)
 
 Vue.config.productionTip = false
 
