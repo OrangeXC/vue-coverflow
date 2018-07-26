@@ -29,7 +29,10 @@ export default {
 // Use in global
 import coverflow from 'vue-coverflow'
 
-Vue.component('coverflow', coverflow)
+Vue.component(coverflow.name, coverflow)
+
+// or
+Vue.use(coverflow)
 ```
 
 ```html
@@ -66,11 +69,9 @@ git clone https://github.com/OrangeXC/vue-coverflow.git
 
 cd vue-coverflow
 
-yarn
-#or
-npm i
+yarn # or npm install
 
-npm run serve
+yarn serve # or npm run serve
 ```
 
 ### License

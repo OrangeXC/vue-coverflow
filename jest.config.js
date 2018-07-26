@@ -1,4 +1,4 @@
-/*eslint-env node*/
+/* eslint-env node */
 module.exports = {
   roots: ['__tests__'],
   moduleFileExtensions: ['js', 'json', 'vue'],

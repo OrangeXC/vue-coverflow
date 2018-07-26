@@ -1,5 +1,4 @@
-/*eslint-env node*/
+/* eslint-env node */
 module.exports = {
-  lintOnSave: true,
-  baseUrl: './'
+  baseUrl: process.env.NODE_ENV === 'production' ? '.' : ''
 }
