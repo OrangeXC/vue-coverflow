@@ -809,9 +809,9 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@vue%2fpreload-webpack-plugin/-/preload-webpack-plugin-1.0.0.tgz#08f156532909824da2aad258e151742d1e8f822e"
 
-"@vue/test-utils@^1.0.0-beta.22":
-  version "1.0.0-beta.22"
-  resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-1.0.0-beta.22.tgz#f630d556ead51c6ebc0584f7c15835f4508dc83f"
+"@vue/test-utils@^1.0.0-beta.23":
+  version "1.0.0-beta.23"
+  resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-1.0.0-beta.23.tgz#d6ead08f524c745255ecf3f1675e66149a014ef9"
   dependencies:
     lodash "^4.17.4"
 
