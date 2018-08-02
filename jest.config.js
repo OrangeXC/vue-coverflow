@@ -1,4 +1,3 @@
-/* eslint-env node */
 module.exports = {
   roots: ['__tests__'],
   moduleFileExtensions: ['js', 'json', 'vue'],
@@ -6,6 +5,7 @@ module.exports = {
     '^.+\\.js$': '<rootDir>/node_modules/babel-jest',
     '.*\\.(vue)$': '<rootDir>/node_modules/vue-jest'
   },
+  testURL: 'http://localhost/',
   resetModules: true,
   clearMocks: true,
   verbose: true,
