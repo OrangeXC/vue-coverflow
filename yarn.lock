@@ -675,9 +675,9 @@
   version "0.0.30"
   resolved "https://registry.yarnpkg.com/@types/strip-json-comments/-/strip-json-comments-0.0.30.tgz#9aa30c04db212a9a0649d6ae6fd50accc40748a1"
 
-"@vue/babel-preset-app@^3.0.0-rc.11":
-  version "3.0.0-rc.11"
-  resolved "https://registry.yarnpkg.com/@vue/babel-preset-app/-/babel-preset-app-3.0.0-rc.11.tgz#41c24a2e96cfbeca84246763a1cd78f0888b9a64"
+"@vue/babel-preset-app@^3.0.0-rc.12":
+  version "3.0.0-rc.12"
+  resolved "http://npm.zhaopin.com/@vue%2fbabel-preset-app/-/babel-preset-app-3.0.0-rc.12.tgz#3f9e15f8152a9ae1a45bfec1b7ee17f82c56686b"
   dependencies:
     "@babel/plugin-proposal-class-properties" "7.0.0-beta.47"
     "@babel/plugin-proposal-decorators" "7.0.0-beta.47"
@@ -690,36 +690,36 @@
     babel-plugin-dynamic-import-node "^2.0.0"
     babel-plugin-transform-vue-jsx "^4.0.1"
 
-"@vue/cli-overlay@^3.0.0-rc.11":
-  version "3.0.0-rc.11"
-  resolved "https://registry.yarnpkg.com/@vue/cli-overlay/-/cli-overlay-3.0.0-rc.11.tgz#70fda62f67357a7ce7050240e4435d68482fc61e"
+"@vue/cli-overlay@^3.0.0-rc.12":
+  version "3.0.0-rc.12"
+  resolved "http://npm.zhaopin.com/@vue%2fcli-overlay/-/cli-overlay-3.0.0-rc.12.tgz#e4e8e3a87590e5f3d97b9a6f7732d81e644b86af"
 
-"@vue/cli-plugin-babel@^3.0.0-rc.11":
-  version "3.0.0-rc.11"
-  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-babel/-/cli-plugin-babel-3.0.0-rc.11.tgz#e4f2610ba9d9855ae76b9d4f42b7e3a4861ce969"
+"@vue/cli-plugin-babel@^3.0.0-rc.12":
+  version "3.0.0-rc.12"
+  resolved "http://npm.zhaopin.com/@vue%2fcli-plugin-babel/-/cli-plugin-babel-3.0.0-rc.12.tgz#d1e35e16e7f7b5226b232511a3e8d0300b6c5de5"
   dependencies:
     "@babel/core" "7.0.0-beta.47"
-    "@vue/babel-preset-app" "^3.0.0-rc.11"
+    "@vue/babel-preset-app" "^3.0.0-rc.12"
     babel-loader "^8.0.0-0"
 
-"@vue/cli-plugin-eslint@^3.0.0-rc.11":
-  version "3.0.0-rc.11"
-  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-eslint/-/cli-plugin-eslint-3.0.0-rc.11.tgz#87d23a6cafc1e7b9759228d347117f0d558c4d05"
+"@vue/cli-plugin-eslint@^3.0.0-rc.12":
+  version "3.0.0-rc.12"
+  resolved "http://npm.zhaopin.com/@vue%2fcli-plugin-eslint/-/cli-plugin-eslint-3.0.0-rc.12.tgz#5bd6b85a6097d143f8684c4a4ab42d3625a3ab3f"
   dependencies:
-    "@vue/cli-shared-utils" "^3.0.0-rc.11"
+    "@vue/cli-shared-utils" "^3.0.0-rc.12"
     babel-eslint "^8.2.5"
     eslint "^4.19.1"
     eslint-loader "^2.0.0"
     eslint-plugin-vue "^4.5.0"
 
-"@vue/cli-service@^3.0.0-rc.11":
-  version "3.0.0-rc.11"
-  resolved "https://registry.yarnpkg.com/@vue/cli-service/-/cli-service-3.0.0-rc.11.tgz#de4a7e77b68b11702657ca05fd698b9cd001ad77"
+"@vue/cli-service@^3.0.0-rc.12":
+  version "3.0.0-rc.12"
+  resolved "http://npm.zhaopin.com/@vue%2fcli-service/-/cli-service-3.0.0-rc.12.tgz#e1595962ff504c026e626c0c59c51b58147386b0"
   dependencies:
     "@intervolga/optimize-cssnano-plugin" "^1.0.5"
-    "@vue/cli-overlay" "^3.0.0-rc.11"
-    "@vue/cli-shared-utils" "^3.0.0-rc.11"
-    "@vue/preload-webpack-plugin" "^1.0.0"
+    "@vue/cli-overlay" "^3.0.0-rc.12"
+    "@vue/cli-shared-utils" "^3.0.0-rc.12"
+    "@vue/preload-webpack-plugin" "^1.1.0"
     "@vue/web-component-wrapper" "^1.2.0"
     acorn "^5.7.1"
     address "^1.0.3"
@@ -752,11 +752,12 @@
     semver "^5.5.0"
     slash "^2.0.0"
     source-map-url "^0.4.0"
+    ssri "^6.0.0"
     string.prototype.padend "^3.0.0"
     thread-loader "^1.1.5"
     uglifyjs-webpack-plugin "^1.2.7"
     url-loader "^1.0.1"
-    vue-loader "^15.2.7"
+    vue-loader "^15.3.0"
     webpack "^4.15.1"
     webpack-bundle-analyzer "^2.13.1"
     webpack-chain "^4.8.0"
@@ -764,9 +765,9 @@
     webpack-merge "^4.1.3"
     yorkie "^1.0.3"
 
-"@vue/cli-shared-utils@^3.0.0-rc.11":
-  version "3.0.0-rc.11"
-  resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-3.0.0-rc.11.tgz#4249b9815bcb0181a4b630966eee16746a9a8bd8"
+"@vue/cli-shared-utils@^3.0.0-rc.12":
+  version "3.0.0-rc.12"
+  resolved "http://npm.zhaopin.com/@vue%2fcli-shared-utils/-/cli-shared-utils-3.0.0-rc.12.tgz#bc141c96993c52ef5fe3813a597d0a922327c776"
   dependencies:
     chalk "^2.4.1"
     execa "^0.10.0"
@@ -794,9 +795,9 @@
     source-map "^0.5.6"
     vue-template-es2015-compiler "^1.6.0"
 
-"@vue/eslint-config-standard@^3.0.0-rc.11":
-  version "3.0.0-rc.11"
-  resolved "https://registry.yarnpkg.com/@vue/eslint-config-standard/-/eslint-config-standard-3.0.0-rc.11.tgz#22b989a574e4b3ecf9f7cdf5092ba0af1ecafacb"
+"@vue/eslint-config-standard@^3.0.0-rc.12":
+  version "3.0.0-rc.12"
+  resolved "http://npm.zhaopin.com/@vue%2feslint-config-standard/-/eslint-config-standard-3.0.0-rc.12.tgz#1066dc88ebc27714ef0e5407808d7a377154387b"
   dependencies:
     eslint-config-standard "^12.0.0-alpha.0"
     eslint-plugin-import "^2.11.0"
@@ -804,9 +805,9 @@
     eslint-plugin-promise "^3.7.0"
     eslint-plugin-standard "^3.1.0"
 
-"@vue/preload-webpack-plugin@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@vue/preload-webpack-plugin/-/preload-webpack-plugin-1.0.0.tgz#08f156532909824da2aad258e151742d1e8f822e"
+"@vue/preload-webpack-plugin@^1.1.0":
+  version "1.1.0"
+  resolved "http://npm.zhaopin.com/@vue%2fpreload-webpack-plugin/-/preload-webpack-plugin-1.1.0.tgz#d768dba004261c029b53a77c5ea2d5f9ee4f3cce"
 
 "@vue/test-utils@^1.0.0-beta.24":
   version "1.0.0-beta.24"
@@ -7457,6 +7458,10 @@ ssri@^5.2.4:
   dependencies:
     safe-buffer "^5.1.1"
 
+ssri@^6.0.0:
+  version "6.0.0"
+  resolved "http://npm.zhaopin.com/ssri/-/ssri-6.0.0.tgz#fc21bfc90e03275ac3e23d5a42e38b8a1cbc130d"
+
 stable@~0.1.6:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/stable/-/stable-0.1.8.tgz#836eb3c8382fe2936feaf544631017ce7d47a3cf"
@@ -8117,9 +8122,9 @@ vue-jest@^2.6.0:
     tsconfig "^7.0.0"
     vue-template-es2015-compiler "^1.6.0"
 
-vue-loader@^15.2.7:
+vue-loader@^15.3.0:
   version "15.3.0"
-  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-15.3.0.tgz#b474d10a4e93d934a78c147fc3e314b370e9fc54"
+  resolved "http://npm.zhaopin.com/vue-loader/-/vue-loader-15.3.0.tgz#b474d10a4e93d934a78c147fc3e314b370e9fc54"
   dependencies:
     "@vue/component-compiler-utils" "^2.0.0"
     hash-sum "^1.0.2"
