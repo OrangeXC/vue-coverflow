@@ -677,7 +677,7 @@
 
 "@vue/babel-preset-app@^3.0.0":
   version "3.0.0"
-  resolved "http://npm.zhaopin.com/@vue%2fbabel-preset-app/-/babel-preset-app-3.0.0.tgz#56bbd624eb78fa1d5f7bf992ac62e6fc7557bd71"
+  resolved "https://registry.yarnpkg.com/@vue%2fbabel-preset-app/-/babel-preset-app-3.0.0.tgz#56bbd624eb78fa1d5f7bf992ac62e6fc7557bd71"
   dependencies:
     "@babel/plugin-proposal-class-properties" "7.0.0-beta.47"
     "@babel/plugin-proposal-decorators" "7.0.0-beta.47"
@@ -692,11 +692,11 @@
 
 "@vue/cli-overlay@^3.0.0":
   version "3.0.0"
-  resolved "http://npm.zhaopin.com/@vue%2fcli-overlay/-/cli-overlay-3.0.0.tgz#580340afde2cf155b71c67907f27a69b906416b6"
+  resolved "https://registry.yarnpkg.com/@vue%2fcli-overlay/-/cli-overlay-3.0.0.tgz#580340afde2cf155b71c67907f27a69b906416b6"
 
 "@vue/cli-plugin-babel@^3.0.0":
   version "3.0.0"
-  resolved "http://npm.zhaopin.com/@vue%2fcli-plugin-babel/-/cli-plugin-babel-3.0.0.tgz#5e3e2ae3435929b26994250692fa7a20e5cd6883"
+  resolved "https://registry.yarnpkg.com/@vue%2fcli-plugin-babel/-/cli-plugin-babel-3.0.0.tgz#5e3e2ae3435929b26994250692fa7a20e5cd6883"
   dependencies:
     "@babel/core" "7.0.0-beta.47"
     "@vue/babel-preset-app" "^3.0.0"
@@ -704,7 +704,7 @@
 
 "@vue/cli-plugin-eslint@^3.0.0":
   version "3.0.0"
-  resolved "http://npm.zhaopin.com/@vue%2fcli-plugin-eslint/-/cli-plugin-eslint-3.0.0.tgz#97b163df1272b39e61e18c8add5dfe28a92375c4"
+  resolved "https://registry.yarnpkg.com/@vue%2fcli-plugin-eslint/-/cli-plugin-eslint-3.0.0.tgz#97b163df1272b39e61e18c8add5dfe28a92375c4"
   dependencies:
     "@vue/cli-shared-utils" "^3.0.0"
     babel-eslint "^8.2.5"
@@ -714,7 +714,7 @@
 
 "@vue/cli-service@^3.0.0":
   version "3.0.0"
-  resolved "http://npm.zhaopin.com/@vue%2fcli-service/-/cli-service-3.0.0.tgz#c808a846072dcf5751aad786439f53fc0a812bf4"
+  resolved "https://registry.yarnpkg.com/@vue%2fcli-service/-/cli-service-3.0.0.tgz#c808a846072dcf5751aad786439f53fc0a812bf4"
   dependencies:
     "@intervolga/optimize-cssnano-plugin" "^1.0.5"
     "@vue/cli-overlay" "^3.0.0"
@@ -767,7 +767,7 @@
 
 "@vue/cli-shared-utils@^3.0.0":
   version "3.0.0"
-  resolved "http://npm.zhaopin.com/@vue%2fcli-shared-utils/-/cli-shared-utils-3.0.0.tgz#f4886ce9a62dd2088e112af4d54f61c1667318d0"
+  resolved "https://registry.yarnpkg.com/@vue%2fcli-shared-utils/-/cli-shared-utils-3.0.0.tgz#f4886ce9a62dd2088e112af4d54f61c1667318d0"
   dependencies:
     chalk "^2.4.1"
     execa "^0.10.0"
@@ -797,7 +797,7 @@
 
 "@vue/eslint-config-standard@^3.0.0":
   version "3.0.0"
-  resolved "http://npm.zhaopin.com/@vue%2feslint-config-standard/-/eslint-config-standard-3.0.0.tgz#2a995fa4fac38bbb0947c8bceb4144eabf62df6a"
+  resolved "https://registry.yarnpkg.com/@vue%2feslint-config-standard/-/eslint-config-standard-3.0.0.tgz#2a995fa4fac38bbb0947c8bceb4144eabf62df6a"
   dependencies:
     eslint-config-standard "^12.0.0-alpha.0"
     eslint-plugin-import "^2.11.0"
@@ -807,7 +807,7 @@
 
 "@vue/preload-webpack-plugin@^1.1.0":
   version "1.1.0"
-  resolved "http://npm.zhaopin.com/@vue%2fpreload-webpack-plugin/-/preload-webpack-plugin-1.1.0.tgz#d768dba004261c029b53a77c5ea2d5f9ee4f3cce"
+  resolved "https://registry.yarnpkg.com/@vue%2fpreload-webpack-plugin/-/preload-webpack-plugin-1.1.0.tgz#d768dba004261c029b53a77c5ea2d5f9ee4f3cce"
 
 "@vue/test-utils@^1.0.0-beta.24":
   version "1.0.0-beta.24"
@@ -3464,7 +3464,7 @@ expand-range@^1.8.1:
 
 expect@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/expect/-/expect-23.5.0.tgz#18999a0eef8f8acf99023fde766d9c323c2562ed"
+  resolved "https://registry.yarnpkg.com/expect/-/expect-23.5.0.tgz#18999a0eef8f8acf99023fde766d9c323c2562ed"
   dependencies:
     ansi-styles "^3.2.0"
     jest-diff "^23.5.0"
@@ -4731,7 +4731,7 @@ jest-changed-files@^23.4.2:
 
 jest-cli@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/jest-cli/-/jest-cli-23.5.0.tgz#d316b8e34a38a610a1efc4f0403d8ef8a55e4492"
+  resolved "https://registry.yarnpkg.com/jest-cli/-/jest-cli-23.5.0.tgz#d316b8e34a38a610a1efc4f0403d8ef8a55e4492"
   dependencies:
     ansi-escapes "^3.0.0"
     chalk "^2.0.1"
@@ -4772,7 +4772,7 @@ jest-cli@^23.5.0:
 
 jest-config@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/jest-config/-/jest-config-23.5.0.tgz#3770fba03f7507ee15f3b8867c742e48f31a9773"
+  resolved "https://registry.yarnpkg.com/jest-config/-/jest-config-23.5.0.tgz#3770fba03f7507ee15f3b8867c742e48f31a9773"
   dependencies:
     babel-core "^6.0.0"
     babel-jest "^23.4.2"
@@ -4791,7 +4791,7 @@ jest-config@^23.5.0:
 
 jest-diff@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/jest-diff/-/jest-diff-23.5.0.tgz#250651a433dd0050290a07642946cc9baaf06fba"
+  resolved "https://registry.yarnpkg.com/jest-diff/-/jest-diff-23.5.0.tgz#250651a433dd0050290a07642946cc9baaf06fba"
   dependencies:
     chalk "^2.0.1"
     diff "^3.2.0"
@@ -4806,7 +4806,7 @@ jest-docblock@^23.2.0:
 
 jest-each@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/jest-each/-/jest-each-23.5.0.tgz#77f7e2afe6132a80954b920006e78239862b10ba"
+  resolved "https://registry.yarnpkg.com/jest-each/-/jest-each-23.5.0.tgz#77f7e2afe6132a80954b920006e78239862b10ba"
   dependencies:
     chalk "^2.0.1"
     pretty-format "^23.5.0"
@@ -4832,7 +4832,7 @@ jest-get-type@^22.1.0:
 
 jest-haste-map@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/jest-haste-map/-/jest-haste-map-23.5.0.tgz#d4ca618188bd38caa6cb20349ce6610e194a8065"
+  resolved "https://registry.yarnpkg.com/jest-haste-map/-/jest-haste-map-23.5.0.tgz#d4ca618188bd38caa6cb20349ce6610e194a8065"
   dependencies:
     fb-watchman "^2.0.0"
     graceful-fs "^4.1.11"
@@ -4845,7 +4845,7 @@ jest-haste-map@^23.5.0:
 
 jest-jasmine2@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/jest-jasmine2/-/jest-jasmine2-23.5.0.tgz#05fe7f1788e650eeb5a03929e6461ea2e9f3db53"
+  resolved "https://registry.yarnpkg.com/jest-jasmine2/-/jest-jasmine2-23.5.0.tgz#05fe7f1788e650eeb5a03929e6461ea2e9f3db53"
   dependencies:
     babel-traverse "^6.0.0"
     chalk "^2.0.1"
@@ -4862,13 +4862,13 @@ jest-jasmine2@^23.5.0:
 
 jest-leak-detector@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/jest-leak-detector/-/jest-leak-detector-23.5.0.tgz#14ac2a785bd625160a2ea968fd5d98b7dcea3e64"
+  resolved "https://registry.yarnpkg.com/jest-leak-detector/-/jest-leak-detector-23.5.0.tgz#14ac2a785bd625160a2ea968fd5d98b7dcea3e64"
   dependencies:
     pretty-format "^23.5.0"
 
 jest-matcher-utils@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/jest-matcher-utils/-/jest-matcher-utils-23.5.0.tgz#0e2ea67744cab78c9ab15011c4d888bdd3e49e2a"
+  resolved "https://registry.yarnpkg.com/jest-matcher-utils/-/jest-matcher-utils-23.5.0.tgz#0e2ea67744cab78c9ab15011c4d888bdd3e49e2a"
   dependencies:
     chalk "^2.0.1"
     jest-get-type "^22.1.0"
@@ -4894,14 +4894,14 @@ jest-regex-util@^23.3.0:
 
 jest-resolve-dependencies@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/jest-resolve-dependencies/-/jest-resolve-dependencies-23.5.0.tgz#10c4d135beb9d2256de1fedc7094916c3ad74af7"
+  resolved "https://registry.yarnpkg.com/jest-resolve-dependencies/-/jest-resolve-dependencies-23.5.0.tgz#10c4d135beb9d2256de1fedc7094916c3ad74af7"
   dependencies:
     jest-regex-util "^23.3.0"
     jest-snapshot "^23.5.0"
 
 jest-resolve@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/jest-resolve/-/jest-resolve-23.5.0.tgz#3b8e7f67e84598f0caf63d1530bd8534a189d0e6"
+  resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-23.5.0.tgz#3b8e7f67e84598f0caf63d1530bd8534a189d0e6"
   dependencies:
     browser-resolve "^1.11.3"
     chalk "^2.0.1"
@@ -4909,7 +4909,7 @@ jest-resolve@^23.5.0:
 
 jest-runner@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/jest-runner/-/jest-runner-23.5.0.tgz#570f7a044da91648b5bb9b6baacdd511076c71d7"
+  resolved "https://registry.yarnpkg.com/jest-runner/-/jest-runner-23.5.0.tgz#570f7a044da91648b5bb9b6baacdd511076c71d7"
   dependencies:
     exit "^0.1.2"
     graceful-fs "^4.1.11"
@@ -4927,7 +4927,7 @@ jest-runner@^23.5.0:
 
 jest-runtime@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/jest-runtime/-/jest-runtime-23.5.0.tgz#eb503525a196dc32f2f9974e3482d26bdf7b63ce"
+  resolved "https://registry.yarnpkg.com/jest-runtime/-/jest-runtime-23.5.0.tgz#eb503525a196dc32f2f9974e3482d26bdf7b63ce"
   dependencies:
     babel-core "^6.0.0"
     babel-plugin-istanbul "^4.1.6"
@@ -4957,7 +4957,7 @@ jest-serializer@^23.0.1:
 
 jest-snapshot@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/jest-snapshot/-/jest-snapshot-23.5.0.tgz#cc368ebd8513e1175e2a7277f37a801b7358ae79"
+  resolved "https://registry.yarnpkg.com/jest-snapshot/-/jest-snapshot-23.5.0.tgz#cc368ebd8513e1175e2a7277f37a801b7358ae79"
   dependencies:
     babel-types "^6.0.0"
     chalk "^2.0.1"
@@ -4985,7 +4985,7 @@ jest-util@^23.4.0:
 
 jest-validate@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/jest-validate/-/jest-validate-23.5.0.tgz#f5df8f761cf43155e1b2e21d6e9de8a2852d0231"
+  resolved "https://registry.yarnpkg.com/jest-validate/-/jest-validate-23.5.0.tgz#f5df8f761cf43155e1b2e21d6e9de8a2852d0231"
   dependencies:
     chalk "^2.0.1"
     jest-get-type "^22.1.0"
@@ -5008,7 +5008,7 @@ jest-worker@^23.2.0:
 
 jest@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/jest/-/jest-23.5.0.tgz#80de353d156ea5ea4a7332f7962ac79135fbc62e"
+  resolved "https://registry.yarnpkg.com/jest/-/jest-23.5.0.tgz#80de353d156ea5ea4a7332f7962ac79135fbc62e"
   dependencies:
     import-local "^1.0.0"
     jest-cli "^23.5.0"
@@ -6562,7 +6562,7 @@ pretty-error@^2.0.2:
 
 pretty-format@^23.5.0:
   version "23.5.0"
-  resolved "http://npm.zhaopin.com/pretty-format/-/pretty-format-23.5.0.tgz#0f9601ad9da70fe690a269cd3efca732c210687c"
+  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-23.5.0.tgz#0f9601ad9da70fe690a269cd3efca732c210687c"
   dependencies:
     ansi-regex "^3.0.0"
     ansi-styles "^3.2.0"
@@ -7462,7 +7462,7 @@ ssri@^5.2.4:
 
 ssri@^6.0.0:
   version "6.0.0"
-  resolved "http://npm.zhaopin.com/ssri/-/ssri-6.0.0.tgz#fc21bfc90e03275ac3e23d5a42e38b8a1cbc130d"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.0.tgz#fc21bfc90e03275ac3e23d5a42e38b8a1cbc130d"
 
 stable@~0.1.6:
   version "0.1.8"
@@ -8126,7 +8126,7 @@ vue-jest@^2.6.0:
 
 vue-loader@^15.3.0:
   version "15.3.0"
-  resolved "http://npm.zhaopin.com/vue-loader/-/vue-loader-15.3.0.tgz#b474d10a4e93d934a78c147fc3e314b370e9fc54"
+  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-15.3.0.tgz#b474d10a4e93d934a78c147fc3e314b370e9fc54"
   dependencies:
     "@vue/component-compiler-utils" "^2.0.0"
     hash-sum "^1.0.2"
@@ -8530,7 +8530,7 @@ yargs@~3.10.0:
 
 yorkie@^2.0.0:
   version "2.0.0"
-  resolved "http://npm.zhaopin.com/yorkie/-/yorkie-2.0.0.tgz#92411912d435214e12c51c2ae1093e54b6bb83d9"
+  resolved "https://registry.yarnpkg.com/yorkie/-/yorkie-2.0.0.tgz#92411912d435214e12c51c2ae1093e54b6bb83d9"
   dependencies:
     execa "^0.8.0"
     is-ci "^1.0.10"
