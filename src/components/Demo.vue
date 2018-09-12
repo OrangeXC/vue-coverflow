@@ -66,22 +66,22 @@ export default {
     return {
       coverList: [
         {
-          cover: 'https://i.loli.net/2018/05/17/5afd1b86b16cf.png',
+          cover: require('../assets/images/react.png'),
           title: 'React'
         }, {
-          cover: 'https://i.loli.net/2018/05/17/5afd1b85854af.png',
+          cover: require('../assets/images/angular.png'),
           title: 'Angular'
         }, {
-          cover: 'https://i.loli.net/2018/05/17/5afd1b86b3f5d.png',
+          cover: require('../assets/images/vue.png'),
           title: 'Vue'
         }, {
-          cover: 'https://i.loli.net/2018/05/17/5afd1b86bc332.png',
+          cover: require('../assets/images/webpack.png'),
           title: 'Webpack'
         }, {
-          cover: 'https://i.loli.net/2018/05/17/5afd1b86c9a2b.png',
+          cover: require('../assets/images/yarn.png'),
           title: 'Yarn'
         }, {
-          cover: 'https://i.loli.net/2018/05/17/5afd1b8585556.png',
+          cover: require('../assets/images/node.png'),
           title: 'Node'
         }
       ],
