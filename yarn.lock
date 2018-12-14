@@ -9880,10 +9880,10 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.0.tgz#97976142405d13d8efae154749e88c4e358cf926"
   integrity sha512-2j/t+wIbyVMP5NvctQoSUvLkYKoWAAk2QlQiilrM2a6/ulzFgdcLUJfTvs4XQ/3eZhHiBmmEojbjmM4AzZj8JA==
 
-vue-jest@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/vue-jest/-/vue-jest-3.0.1.tgz#127cded1a57cdfcf01fa8a10ce29579e2cb3a04d"
-  integrity sha512-otS+n341cTsp0pF7tuTu2x43b23x/+K0LZdAXV+ewKYIMZRqhuQaJTECWEt/cN/YZw2JC6hUM6xybdnOB4ZQ+g==
+vue-jest@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/vue-jest/-/vue-jest-3.0.2.tgz#c64bf5da9abd0d3ee16071217037696d14b0689c"
+  integrity sha512-5XIQ1xQFW0ZnWxHWM7adVA2IqbDsdw1vhgZfGFX4oWd75J38KIS3YT41PtiE7lpMLmNM6+VJ0uprT2mhHjUgkA==
   dependencies:
     babel-plugin-transform-es2015-modules-commonjs "^6.26.0"
     chalk "^2.1.0"
@@ -9915,10 +9915,10 @@ vue-style-loader@^4.1.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@^2.5.20:
-  version "2.5.20"
-  resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.5.20.tgz#b9c01741b7e0261d1c5aac5937c93bde98f880f0"
-  integrity sha512-aGJRLd1bJZi6oerGwCQVaDqvQ1T3dhCbNg9C2gNwzoKnyA3BmYfAWy8OQ3OhOebTri8o4YcLeXfwOOxtOKFfmA==
+vue-template-compiler@^2.5.21:
+  version "2.5.21"
+  resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.5.21.tgz#a57ceb903177e8f643560a8d639a0f8db647054a"
+  integrity sha512-Vmk5Cv7UcmI99B9nXJEkaK262IQNnHp5rJYo+EwYpe2epTAXqcVyExhV6pk8jTkxQK2vRc8v8KmZBAwdmUZvvw==
   dependencies:
     de-indent "^1.0.2"
     he "^1.1.0"
@@ -9928,10 +9928,10 @@ vue-template-es2015-compiler@^1.6.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
   integrity sha512-x3LV3wdmmERhVCYy3quqA57NJW7F3i6faas++pJQWtknWT+n7k30F4TVdHvCLn48peTJFRvCpxs3UuFPqgeELg==
 
-vue@^2.5.20:
-  version "2.5.20"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.20.tgz#79fff9ccaa10cc37e7a7239b4c7adfac94df81ba"
-  integrity sha512-kVLZi8RWOk8qwAt+a0bVDy9VV5Zzcnj0fLCMyKLx1dmEBjqmYJYRWHvPwiypiJBtJkdmROy5NP5hyDqTdfBcvQ==
+vue@^2.5.21:
+  version "2.5.21"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.21.tgz#3d33dcd03bb813912ce894a8303ab553699c4a85"
+  integrity sha512-Aejvyyfhn0zjVeLvXd70h4hrE4zZDx1wfZqia6ekkobLmUZ+vNFQer53B4fu0EjWBSiqApxPejzkO1Znt3joxQ==
 
 w3c-hr-time@^1.0.1:
   version "1.0.1"
