@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "eslint": "^5.12.0"
+    "eslint": "^5.12.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.3.0",
@@ -26,7 +26,7 @@
     "vue-highlightjs": "^1.3.3",
     "vue-jest": "^3.0.2",
     "vue-template-compiler": "^2.5.22",
-    "webpack": "^4.28.4"
+    "webpack": "^4.29.0"
   },
   "babel": {
     "presets": [
