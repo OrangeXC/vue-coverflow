@@ -6,3 +6,5 @@ install:
 script:
   - yarn lint
   - yarn test:unit
+after_success:
+  - codecov

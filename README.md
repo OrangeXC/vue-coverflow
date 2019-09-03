@@ -1,4 +1,4 @@
-<p align="center"><img width="100" src="https://i.loli.net/2019/08/30/3CaEjgt4iXRHm1G.jpg" alt="vue-coverflow logo"></p>
+<p align="center"><img width="100" src="https://i.loli.net/2019/09/03/BRu8meD2T41nNvj.png" alt="vue-coverflow logo"></p>
 
 <p align="center">
   <a href="https://travis-ci.com/OrangeXC/vue-coverflow"><img src="https://travis-ci.com/OrangeXC/vue-coverflow.svg?branch=master" alt="Build Status"></a>
