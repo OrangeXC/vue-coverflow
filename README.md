@@ -73,13 +73,13 @@ You can set them to your data function
 ## Develop
 
 ```bash
-git clone https://github.com/OrangeXC/vue-coverflow.git
+$ git clone https://github.com/OrangeXC/vue-coverflow.git
 
-cd vue-coverflow
+$ cd vue-coverflow
 
-yarn
+$ yarn
 
-yarn serve
+$ yarn serve
 ```
 
 ## License
