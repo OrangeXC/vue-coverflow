@@ -25,18 +25,5 @@ module.exports = {
     'jest-watch-typeahead/filename',
     'jest-watch-typeahead/testname'
   ],
-  collectCoverage: true,
-  coverageReporters: ['text'],
-  collectCoverageFrom: [
-    '**/*.{js,vue}',
-    '!**/node_modules/**'
-  ],
-  coverageThreshold: {
-    global: {
-      branches: 100,
-      functions: 100,
-      lines: 100,
-      statements: 100
-    }
-  }
+  collectCoverage: true
 }
