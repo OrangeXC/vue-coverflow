@@ -1,20 +1,28 @@
-# vue-coverflow
+<p align="center"><img width="100" src="https://i.loli.net/2019/08/30/3CaEjgt4iXRHm1G.jpg" alt="vue-coverflow logo"></p>
 
-> vue-coverflow is a vue2 component to simulate the Apple Cover Flow UI effect, without dependency.
+<p align="center">
+  <a href="https://travis-ci.com/OrangeXC/vue-coverflow"><img src="https://travis-ci.com/OrangeXC/vue-coverflow.svg?branch=master" alt="Build Status"></a>
+  <a href="https://codecov.io/gh/OrangeXC/vue-coverflow"><img src="https://img.shields.io/codecov/c/github/OrangeXC/vue-coverflow/master.svg" alt="Coverage Status"></a>
+  <a href="https://npmcharts.com/compare/vue-coverflow?minimal=true"><img src="https://img.shields.io/npm/dm/vue-coverflow" alt="Npm download"></a>
+  <a href="https://www.npmjs.com/package/vue-coverflow"><img src="https://img.shields.io/npm/v/vue-coverflow" alt="Npm version"></a>
+  <a href="https://github.com/OrangeXC/vue-coverflow/blob/master/LICENSE"><img src="https://img.shields.io/github/license/orangexc/vue-coverflow" alt="GitHub License"></a>
+</p>
 
-[![NPM](https://nodei.co/npm/vue-coverflow.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vue-coverflow/)
+## Introduction
 
-## [Demo](http://orangex_c.coding.me/vue-coverflow/) | [案例](http://orangex_c.coding.me/vue-coverflow/)
+vue-coverflow is a vue2 component to simulate the Apple Cover Flow UI effect, without dependency.
 
-### Install
+### [Demo](http://orangex_c.coding.me/vue-coverflow/) | [案例](http://orangex_c.coding.me/vue-coverflow/)
+
+## Install
 
 ```bash
-npm install vue-coverflow --save
+npm i vue-coverflow
 # or
 yarn add vue-coverflow
 ```
 
-### Use
+## Use
 
 ```js
 // Use in component
@@ -39,9 +47,9 @@ Vue.use(coverflow)
 <coverflow [options]></coverflow>
 ```
 
-### Options
+## Options
 
-#### Attributes
+### Attributes
 You can set them to your data function
 
 | Attribute      | Type         | Description    | Example |
@@ -56,24 +64,24 @@ You can set them to your data function
 | coverShadow    | Boolean      |  reflection effect, total height will be changed to two times (default: false)                      |       |
 | coverFalt      | Boolean      |  disable 3D rotation(default: false)      |       |
 
-#### Events
+### Events
 
 | Event Name     | description    | Parameters |
 | :------------- |:---------------| :--------- |
 | change         | triggers when the selected cover changes |  the index of the curent cover |
 
-### Develop
+## Develop
 
 ```bash
 git clone https://github.com/OrangeXC/vue-coverflow.git
 
 cd vue-coverflow
 
-yarn # or npm install
+yarn
 
-yarn serve # or npm run serve
+yarn serve
 ```
 
-### License
+## License
 
-MIT
+Vue-coverflow is [MIT licensed](https://github.com/OrangeXC/vue-coverflow/blob/master/LICENSE).
