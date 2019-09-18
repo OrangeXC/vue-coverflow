@@ -22,7 +22,7 @@
     "babel-jest": "^24.9.0",
     "codecov": "^3.5.0",
     "core-js": "^3.2.1",
-    "eslint": "^6.3.0",
+    "eslint": "^6.4.0",
     "eslint-plugin-vue": "^5.2.3",
     "vue": "^2.6.10",
     "vue-highlightjs": "^1.3.3",
