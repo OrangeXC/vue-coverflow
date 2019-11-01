@@ -21,7 +21,7 @@
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
     "codecov": "^3.6.1",
-    "core-js": "^3.3.5",
+    "core-js": "^3.3.6",
     "eslint": "^6.6.0",
     "eslint-plugin-vue": "^5.2.3",
     "vue": "^2.6.10",
