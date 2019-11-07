@@ -1,6 +1,6 @@
 /* eslint-env jest */
 import { mount } from '@vue/test-utils'
-import Coverflow from '../lib/Coverflow'
+import Coverflow from '../../lib/Coverflow'
 
 describe('Component', () => {
   const coverList = [
