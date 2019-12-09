@@ -1449,10 +1449,10 @@
     source-map "~0.6.1"
     vue-template-es2015-compiler "^1.9.0"
 
-"@vue/eslint-config-standard@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@vue/eslint-config-standard/-/eslint-config-standard-5.0.0.tgz#2ffabb4056205a86782cd5a641cdbcd330d905b4"
-  integrity sha512-t1mQIqtoQ3FsAx/8RnzT9VCCdbKD0O1pzvVzsN5WrIVIgos5RVII7aSTdh3HjAVn5+UmWLnG/OK+fow4EY7YsA==
+"@vue/eslint-config-standard@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@vue/eslint-config-standard/-/eslint-config-standard-5.0.1.tgz#0ffe65368cd45516498d581457098c69d9173cbe"
+  integrity sha512-8QHYlaGcO1/0IDe0JpzF6DHsQgzHUCqnrBhsX+Y9NmM81ek5XWrxzKfoMQbNXnvy69D/NzI3+a4incYAR36J0A==
   dependencies:
     eslint-config-standard "^14.1.0"
 
@@ -3027,10 +3027,10 @@ core-js@^3.4.3:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.4.3.tgz#09ea102412a368d5f73d24f082e41ac90c633a49"
   integrity sha512-BVvHidX8uAmLCYPfLpXTEex7jz1uZJ1mW+shhIsBdA716O8Fg6TOwSgenSyO/bvEtnGdOTpKRZPSh4bSVI1k9w==
 
-core-js@^3.4.7:
-  version "3.4.7"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.4.7.tgz#57c35937da80fe494fbc3adcf9cf3dc00eb86b34"
-  integrity sha512-qaPVGw30J1wQ0GR3GvoPqlGf9GZfKKF4kFC7kiHlcsPTqH3txrs9crCp3ZiMAXuSenhz89Jnl4GZs/67S5VOSg==
+core-js@^3.4.8:
+  version "3.4.8"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.4.8.tgz#e0fc0c61f2ef90cbc10c531dbffaa46dfb7152dd"
+  integrity sha512-b+BBmCZmVgho8KnBUOXpvlqEMguko+0P+kXCwD4vIprsXC6ht1qgPxtb1OK6XgSlrySF71wkwBQ0Hv695bk9gQ==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
