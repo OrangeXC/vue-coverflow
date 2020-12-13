@@ -32,7 +32,7 @@ describe('Component', () => {
       }
     })
 
-    expect(wrapper.isVueInstance()).toBeTruthy()
+    expect(wrapper.vm).toBeTruthy()
   })
 
   describe('props', () => {
